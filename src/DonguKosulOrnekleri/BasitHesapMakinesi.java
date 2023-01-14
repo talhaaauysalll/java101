@@ -1,3 +1,5 @@
+package DonguKosulOrnekleri;
+
 import java.util.Scanner;
 
 public class BasitHesapMakinesi {
