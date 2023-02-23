@@ -12,6 +12,9 @@ public class Employee {
         this.workHours=workHours;
         this.hireYear=hireYear;
     }
+    public Employee(){
+
+    }
     public double tax(){
         if(this.salary<1000){
             return 0;
@@ -57,9 +60,6 @@ public class Employee {
         System.out.println("Toplam Maaş : "+this.salaryCalculation());
     }
     public void run(){
-        this.tax();
-        this.bonus();
-        this.raiseSalary();
         this.printEmployee();
     }
 }
