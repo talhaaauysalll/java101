@@ -10,7 +10,7 @@ public class DizidekiElemanSayilariniBulma {
         int n=input.nextInt();
         int[] list=new int[n];
         for (int i = 0; i < n; i++) {
-            System.out.print("Dizinin "+(i+1)+" .elemanını giriniz : ");
+            System.out.print("Dizinin "+(i+1    )+" .elemanını giriniz : ");
             int value=input.nextInt();
             list[i]=value;
         }
